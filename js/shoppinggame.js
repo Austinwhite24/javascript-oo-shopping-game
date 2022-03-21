@@ -3,6 +3,12 @@ let gameComplete = false;
 
 // Define the player object here
 
+let player = {
+    name: "unkown",
+    score: 0,
+    items: 0
+}
+
 // Define the Product class - write the Constructor function for Product class here
 
 // Complete the dateDiff function
@@ -310,6 +316,8 @@ function init(data) {
     // (function setGameCompleteFlag(){
     //     gameComplete = true;
     // })();
+
+    // node ./js/shoppinggame.js
 
     function main() {
         let products = loadMasterData();
