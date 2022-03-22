@@ -372,6 +372,7 @@ function init(data) {
                 rateAndExit();
             } else {
                 // Call rating setter method of playerRating to set user entered rate value here
+                playerRating.rating = r;
                 
                 // Call Object.assign() method here to populate target
                 
