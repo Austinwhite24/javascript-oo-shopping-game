@@ -265,6 +265,7 @@ const findPointsForExpDate = (prod) => {
     if (daysToExpire.value < 30) {
 
         daysToExpire.value = 10
+        return daysToExpire
     }
 
 };
