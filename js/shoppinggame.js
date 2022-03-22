@@ -393,15 +393,15 @@ function init(data) {
 
     // Complete this function
     const exitWon = () => {
-        let finalStatus; 
+        let finalStatus = player.status; 
         console.log(`Congratulations!!! You became ${finalStatus}!`.blue);
         rateAndExit();
     };
 
     // Uncomment this function once you fully implement the game to be able to run it
-    // (function setGameCompleteFlag(){
-    //     gameComplete = true;
-    // })();
+    (function setGameCompleteFlag(){
+        gameComplete = true;
+    })();
 
     // node ./js/shoppinggame.js
 
