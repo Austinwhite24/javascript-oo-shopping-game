@@ -260,7 +260,14 @@ const findPointsToBill = (roundedTotal) => {
 
 
 // Complete this function
-const findPointsForExpDate = (prod) => {};
+const findPointsForExpDate = (prod) => {
+  let daysToExpire = 0
+    if (daysToExpire.value < 30) {
+
+        daysToExpire.value = 10
+    }
+
+};
 
 
 const calculatePoints = (prod, tBill) => {
